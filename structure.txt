@@ -1,0 +1,1506 @@
+Folder PATH listing
+Volume serial number is C460-3A30
+C:.
+|   build.gradle.kts
+|   gradle.properties
+|   settings.gradle.kts
+|   structure.txt
+|   
++---.gradle
+|   |   file-system.probe
+|   |   
+|   +---9.4.0
+|   |   |   gc.properties
+|   |   |   
+|   |   +---checksums
+|   |   |       checksums.lock
+|   |   |       
+|   |   +---executionHistory
+|   |   |       executionHistory.bin
+|   |   |       executionHistory.lock
+|   |   |       
+|   |   +---expanded
+|   |   +---fileChanges
+|   |   |       last-build.bin
+|   |   |       
+|   |   +---fileHashes
+|   |   |       fileHashes.bin
+|   |   |       fileHashes.lock
+|   |   |       resourceHashesCache.bin
+|   |   |       
+|   |   \---vcsMetadata
+|   +---9.4.1
+|   |   |   gc.properties
+|   |   |   
+|   |   +---checksums
+|   |   |       checksums.lock
+|   |   |       md5-checksums.bin
+|   |   |       sha1-checksums.bin
+|   |   |       
+|   |   +---executionHistory
+|   |   |       executionHistory.bin
+|   |   |       executionHistory.lock
+|   |   |       
+|   |   +---expanded
+|   |   +---fileChanges
+|   |   |       last-build.bin
+|   |   |       
+|   |   +---fileHashes
+|   |   |       fileHashes.bin
+|   |   |       fileHashes.lock
+|   |   |       resourceHashesCache.bin
+|   |   |       
+|   |   \---vcsMetadata
+|   +---buildOutputCleanup
+|   |       buildOutputCleanup.lock
+|   |       cache.properties
+|   |       outputFiles.bin
+|   |       
+|   +---configuration-cache
+|   |   |   configuration-cache.lock
+|   |   |   gc.properties
+|   |   |   
+|   |   +---2vk62pukqht0ka4wynocs1pqz
+|   |   |       candidates.bin
+|   |   |       
+|   |   +---43267124-32a2-4cf3-a51d-d7a3fc04885e
+|   |   +---469a9e35-39f5-4fed-bc67-efe6b9ad2fa5
+|   |   |       .globals.work.bin
+|   |   |       .strings.work.bin
+|   |   |       build.work.bin
+|   |   |       buildfingerprint.bin
+|   |   |       classloaderscopes.bin
+|   |   |       entry.bin
+|   |   |       projectfingerprint.bin
+|   |   |       work.bin
+|   |   |       _.work.bin
+|   |   |       
+|   |   +---5980598e-0b6e-47cc-a533-99da2e00f2aa
+|   |   |       .globals.work.bin
+|   |   |       .strings.work.bin
+|   |   |       build.work.bin
+|   |   |       buildfingerprint.bin
+|   |   |       classloaderscopes.bin
+|   |   |       entry.bin
+|   |   |       projectfingerprint.bin
+|   |   |       work.bin
+|   |   |       _.work.bin
+|   |   |       
+|   |   +---5c1d0cdf-0aea-41b1-8c73-9851b82b9e2f
+|   |   +---84f70a87-1202-41c6-90bc-33785241b13f
+|   |   |       .globals.work.bin
+|   |   |       .strings.work.bin
+|   |   |       buildfingerprint.bin
+|   |   |       classloaderscopes.bin
+|   |   |       entry.bin
+|   |   |       projectfingerprint.bin
+|   |   |       work.bin
+|   |   |       _.work.bin
+|   |   |       
+|   |   +---a8twwfldkn4ezaybd09uk2hea
+|   |   |       candidates.bin
+|   |   |       
+|   |   +---ezrhq7dh52eqtwfs3c0uqjfnq
+|   |   |       candidates.bin
+|   |   |       
+|   |   +---fcc70fa7-cf77-4768-a1a4-d57c2a16d19a
+|   |   |       .globals.work.bin
+|   |   |       .strings.work.bin
+|   |   |       buildfingerprint.bin
+|   |   |       classloaderscopes.bin
+|   |   |       entry.bin
+|   |   |       projectfingerprint.bin
+|   |   |       work.bin
+|   |   |       _.work.bin
+|   |   |       
+|   |   \---nsi5i3usbcuo3ly686bo9lup
+|   |           candidates.bin
+|   |           
+|   \---vcs-1
+|           gc.properties
+|           
++---.tools
+|   +---gradle-9.4.0
+|   |   |   LICENSE
+|   |   |   NOTICE
+|   |   |   README
+|   |   |   
+|   |   +---bin
+|   |   |       gradle
+|   |   |       gradle.bat
+|   |   |       
+|   |   +---init.d
+|   |   |       readme.txt
+|   |   |       
+|   |   \---lib
+|   |       |   annotations-24.0.1.jar
+|   |       |   annotations.properties
+|   |       |   ant-1.10.15.jar
+|   |       |   ant-antlr-1.10.15.jar
+|   |       |   ant-antlr.properties
+|   |       |   ant-launcher-1.10.15.jar
+|   |       |   ant-launcher.properties
+|   |       |   ant.properties
+|   |       |   antlr4-runtime-4.7.2.jar
+|   |       |   antlr4-runtime.properties
+|   |       |   asm-9.9.jar
+|   |       |   asm-commons-9.9.jar
+|   |       |   asm-commons.properties
+|   |       |   asm-tree-9.9.jar
+|   |       |   asm-tree.properties
+|   |       |   asm.properties
+|   |       |   commons-codec-1.18.0.jar
+|   |       |   commons-codec.properties
+|   |       |   commons-compress-1.26.1.jar
+|   |       |   commons-compress.properties
+|   |       |   commons-io-2.15.1.jar
+|   |       |   commons-io.properties
+|   |       |   commons-lang3-3.20.0.jar
+|   |       |   commons-lang3.properties
+|   |       |   error_prone_annotations-2.42.0.jar
+|   |       |   error_prone_annotations.properties
+|   |       |   failureaccess-1.0.3.jar
+|   |       |   failureaccess.properties
+|   |       |   fastutil-8.5.2-min.jar
+|   |       |   fastutil.properties
+|   |       |   gradle-api-metadata-9.4.0.jar
+|   |       |   gradle-api-metadata.properties
+|   |       |   gradle-base-asm-9.4.0.jar
+|   |       |   gradle-base-asm.properties
+|   |       |   gradle-base-diagnostics-9.4.0.jar
+|   |       |   gradle-base-diagnostics.properties
+|   |       |   gradle-base-services-9.4.0.jar
+|   |       |   gradle-base-services-groovy-9.4.0.jar
+|   |       |   gradle-base-services-groovy.properties
+|   |       |   gradle-base-services.properties
+|   |       |   gradle-build-cache-9.4.0.jar
+|   |       |   gradle-build-cache-base-9.4.0.jar
+|   |       |   gradle-build-cache-base.properties
+|   |       |   gradle-build-cache-local-9.4.0.jar
+|   |       |   gradle-build-cache-local.properties
+|   |       |   gradle-build-cache-packaging-9.4.0.jar
+|   |       |   gradle-build-cache-packaging.properties
+|   |       |   gradle-build-cache-spi-9.4.0.jar
+|   |       |   gradle-build-cache-spi.properties
+|   |       |   gradle-build-cache.properties
+|   |       |   gradle-build-configuration-9.4.0.jar
+|   |       |   gradle-build-configuration.properties
+|   |       |   gradle-build-discovery-9.4.0.jar
+|   |       |   gradle-build-discovery-impl-9.4.0.jar
+|   |       |   gradle-build-discovery-impl.properties
+|   |       |   gradle-build-discovery-reporting-9.4.0.jar
+|   |       |   gradle-build-discovery-reporting.properties
+|   |       |   gradle-build-discovery.properties
+|   |       |   gradle-build-events-9.4.0.jar
+|   |       |   gradle-build-events.properties
+|   |       |   gradle-build-init-specs-9.4.0.jar
+|   |       |   gradle-build-init-specs-api-9.4.0.jar
+|   |       |   gradle-build-init-specs-api.properties
+|   |       |   gradle-build-init-specs.properties
+|   |       |   gradle-build-operations-9.4.0.jar
+|   |       |   gradle-build-operations-trace-9.4.0.jar
+|   |       |   gradle-build-operations-trace.properties
+|   |       |   gradle-build-operations.properties
+|   |       |   gradle-build-option-9.4.0.jar
+|   |       |   gradle-build-option.properties
+|   |       |   gradle-build-process-services-9.4.0.jar
+|   |       |   gradle-build-process-services.properties
+|   |       |   gradle-build-state-9.4.0.jar
+|   |       |   gradle-build-state.properties
+|   |       |   gradle-classloaders-9.4.0.jar
+|   |       |   gradle-classloaders.properties
+|   |       |   gradle-cli-9.4.0.jar
+|   |       |   gradle-cli.properties
+|   |       |   gradle-client-services-9.4.0.jar
+|   |       |   gradle-client-services.properties
+|   |       |   gradle-collections-9.4.0.jar
+|   |       |   gradle-collections.properties
+|   |       |   gradle-concurrent-9.4.0.jar
+|   |       |   gradle-concurrent.properties
+|   |       |   gradle-configuration-problems-base-9.4.0.jar
+|   |       |   gradle-configuration-problems-base.properties
+|   |       |   gradle-core-9.4.0.jar
+|   |       |   gradle-core-api-9.4.0.jar
+|   |       |   gradle-core-api.properties
+|   |       |   gradle-core-flow-services-api-9.4.0.jar
+|   |       |   gradle-core-flow-services-api.properties
+|   |       |   gradle-core-kotlin-extensions-9.4.0.jar
+|   |       |   gradle-core-kotlin-extensions.properties
+|   |       |   gradle-core-platform.properties
+|   |       |   gradle-core.properties
+|   |       |   gradle-daemon-logging-9.4.0.jar
+|   |       |   gradle-daemon-logging.properties
+|   |       |   gradle-daemon-main-9.4.0.jar
+|   |       |   gradle-daemon-main.properties
+|   |       |   gradle-daemon-protocol-9.4.0.jar
+|   |       |   gradle-daemon-protocol.properties
+|   |       |   gradle-daemon-server-9.4.0.jar
+|   |       |   gradle-daemon-server.properties
+|   |       |   gradle-daemon-services-9.4.0.jar
+|   |       |   gradle-daemon-services.properties
+|   |       |   gradle-declarative-dsl-api-9.4.0.jar
+|   |       |   gradle-declarative-dsl-api.properties
+|   |       |   gradle-declarative-dsl-core-9.4.0.jar
+|   |       |   gradle-declarative-dsl-core.properties
+|   |       |   gradle-declarative-dsl-evaluator-9.4.0.jar
+|   |       |   gradle-declarative-dsl-evaluator.properties
+|   |       |   gradle-declarative-dsl-provider-9.4.0.jar
+|   |       |   gradle-declarative-dsl-provider.properties
+|   |       |   gradle-declarative-dsl-tooling-models-9.4.0.jar
+|   |       |   gradle-declarative-dsl-tooling-models.properties
+|   |       |   gradle-distributions-dependencies.properties
+|   |       |   gradle-enterprise-logging-9.4.0.jar
+|   |       |   gradle-enterprise-logging.properties
+|   |       |   gradle-enterprise-operations-9.4.0.jar
+|   |       |   gradle-enterprise-operations.properties
+|   |       |   gradle-enterprise-workers-9.4.0.jar
+|   |       |   gradle-enterprise-workers.properties
+|   |       |   gradle-execution-9.4.0.jar
+|   |       |   gradle-execution.properties
+|   |       |   gradle-file-collections-9.4.0.jar
+|   |       |   gradle-file-collections.properties
+|   |       |   gradle-file-operations-9.4.0.jar
+|   |       |   gradle-file-operations.properties
+|   |       |   gradle-file-temp-9.4.0.jar
+|   |       |   gradle-file-temp.properties
+|   |       |   gradle-file-watching-9.4.0.jar
+|   |       |   gradle-file-watching.properties
+|   |       |   gradle-fileevents-0.2.8.jar
+|   |       |   gradle-fileevents.properties
+|   |       |   gradle-files-9.4.0.jar
+|   |       |   gradle-files.properties
+|   |       |   gradle-functional-9.4.0.jar
+|   |       |   gradle-functional.properties
+|   |       |   gradle-gradle-cli-9.4.0.jar
+|   |       |   gradle-gradle-cli-main-9.4.0.jar
+|   |       |   gradle-gradle-cli-main.properties
+|   |       |   gradle-gradle-cli.properties
+|   |       |   gradle-groovy-loader-9.4.0.jar
+|   |       |   gradle-groovy-loader.properties
+|   |       |   gradle-hashing-9.4.0.jar
+|   |       |   gradle-hashing.properties
+|   |       |   gradle-input-tracking-9.4.0.jar
+|   |       |   gradle-input-tracking.properties
+|   |       |   gradle-installation-beacon-9.4.0.jar
+|   |       |   gradle-installation-beacon.properties
+|   |       |   gradle-instrumentation-agent-services-9.4.0.jar
+|   |       |   gradle-instrumentation-agent-services.properties
+|   |       |   gradle-instrumentation-reporting-9.4.0.jar
+|   |       |   gradle-instrumentation-reporting.properties
+|   |       |   gradle-internal-instrumentation-api-9.4.0.jar
+|   |       |   gradle-internal-instrumentation-api.properties
+|   |       |   gradle-io-9.4.0.jar
+|   |       |   gradle-io.properties
+|   |       |   gradle-java-api-extractor-9.4.0.jar
+|   |       |   gradle-java-api-extractor.properties
+|   |       |   gradle-jvm-services-9.4.0.jar
+|   |       |   gradle-jvm-services.properties
+|   |       |   gradle-kotlin-dsl-9.4.0.jar
+|   |       |   gradle-kotlin-dsl-extensions-9.4.0.jar
+|   |       |   gradle-kotlin-dsl-extensions.properties
+|   |       |   gradle-kotlin-dsl-shared-runtime-9.4.0.jar
+|   |       |   gradle-kotlin-dsl-shared-runtime.properties
+|   |       |   gradle-kotlin-dsl-tooling-models-9.4.0.jar
+|   |       |   gradle-kotlin-dsl-tooling-models.properties
+|   |       |   gradle-kotlin-dsl.properties
+|   |       |   gradle-launcher-9.4.0.jar
+|   |       |   gradle-launcher.properties
+|   |       |   gradle-logging-9.4.0.jar
+|   |       |   gradle-logging-api-9.4.0.jar
+|   |       |   gradle-logging-api.properties
+|   |       |   gradle-logging.properties
+|   |       |   gradle-messaging-9.4.0.jar
+|   |       |   gradle-messaging.properties
+|   |       |   gradle-model-core-9.4.0.jar
+|   |       |   gradle-model-core.properties
+|   |       |   gradle-model-groovy-9.4.0.jar
+|   |       |   gradle-model-groovy.properties
+|   |       |   gradle-model-reflect-9.4.0.jar
+|   |       |   gradle-model-reflect.properties
+|   |       |   gradle-native-9.4.0.jar
+|   |       |   gradle-native.properties
+|   |       |   gradle-normalization-java-9.4.0.jar
+|   |       |   gradle-normalization-java.properties
+|   |       |   gradle-persistent-cache-9.4.0.jar
+|   |       |   gradle-persistent-cache.properties
+|   |       |   gradle-problems-9.4.0.jar
+|   |       |   gradle-problems-api-9.4.0.jar
+|   |       |   gradle-problems-api.properties
+|   |       |   gradle-problems-rendering-9.4.0.jar
+|   |       |   gradle-problems-rendering.properties
+|   |       |   gradle-problems.properties
+|   |       |   gradle-process-memory-services-9.4.0.jar
+|   |       |   gradle-process-memory-services.properties
+|   |       |   gradle-process-services-9.4.0.jar
+|   |       |   gradle-process-services.properties
+|   |       |   gradle-project-features-9.4.0.jar
+|   |       |   gradle-project-features-api-9.4.0.jar
+|   |       |   gradle-project-features-api.properties
+|   |       |   gradle-project-features.properties
+|   |       |   gradle-report-rendering-9.4.0.jar
+|   |       |   gradle-report-rendering.properties
+|   |       |   gradle-request-handler-worker-9.4.0.jar
+|   |       |   gradle-request-handler-worker.properties
+|   |       |   gradle-resources-9.4.0.jar
+|   |       |   gradle-resources-http-9.4.0.jar
+|   |       |   gradle-resources-http.properties
+|   |       |   gradle-resources.properties
+|   |       |   gradle-runtime-api-info-9.4.0.jar
+|   |       |   gradle-runtime-api-info.properties
+|   |       |   gradle-scoped-persistent-cache-9.4.0.jar
+|   |       |   gradle-scoped-persistent-cache.properties
+|   |       |   gradle-serialization-9.4.0.jar
+|   |       |   gradle-serialization.properties
+|   |       |   gradle-service-lookup-9.4.0.jar
+|   |       |   gradle-service-lookup.properties
+|   |       |   gradle-service-provider-9.4.0.jar
+|   |       |   gradle-service-provider.properties
+|   |       |   gradle-service-registry-builder-9.4.0.jar
+|   |       |   gradle-service-registry-builder.properties
+|   |       |   gradle-service-registry-impl-9.4.0.jar
+|   |       |   gradle-service-registry-impl.properties
+|   |       |   gradle-snapshots-9.4.0.jar
+|   |       |   gradle-snapshots.properties
+|   |       |   gradle-stdlib-java-extensions-9.4.0.jar
+|   |       |   gradle-stdlib-java-extensions.properties
+|   |       |   gradle-stdlib-kotlin-extensions-9.4.0.jar
+|   |       |   gradle-stdlib-kotlin-extensions.properties
+|   |       |   gradle-time-9.4.0.jar
+|   |       |   gradle-time.properties
+|   |       |   gradle-toolchains-jvm-shared-9.4.0.jar
+|   |       |   gradle-toolchains-jvm-shared.properties
+|   |       |   gradle-tooling-api-9.4.0.jar
+|   |       |   gradle-tooling-api-provider-9.4.0.jar
+|   |       |   gradle-tooling-api-provider.properties
+|   |       |   gradle-tooling-api.properties
+|   |       |   gradle-versioned-cache-9.4.0.jar
+|   |       |   gradle-versioned-cache.properties
+|   |       |   gradle-worker-main-9.4.0.jar
+|   |       |   gradle-worker-main.properties
+|   |       |   gradle-wrapper-shared-9.4.0.jar
+|   |       |   gradle-wrapper-shared.properties
+|   |       |   groovy-4.0.29.jar
+|   |       |   groovy-ant-4.0.29.jar
+|   |       |   groovy-ant.properties
+|   |       |   groovy-astbuilder-4.0.29.jar
+|   |       |   groovy-astbuilder.properties
+|   |       |   groovy-bom.properties
+|   |       |   groovy-datetime-4.0.29.jar
+|   |       |   groovy-datetime.properties
+|   |       |   groovy-dateutil-4.0.29.jar
+|   |       |   groovy-dateutil.properties
+|   |       |   groovy-docgenerator-4.0.29.jar
+|   |       |   groovy-docgenerator.properties
+|   |       |   groovy-groovydoc-4.0.29.jar
+|   |       |   groovy-groovydoc.properties
+|   |       |   groovy-json-4.0.29.jar
+|   |       |   groovy-json.properties
+|   |       |   groovy-nio-4.0.29.jar
+|   |       |   groovy-nio.properties
+|   |       |   groovy-templates-4.0.29.jar
+|   |       |   groovy-templates.properties
+|   |       |   groovy-xml-4.0.29.jar
+|   |       |   groovy-xml.properties
+|   |       |   groovy.properties
+|   |       |   gson-2.13.1.jar
+|   |       |   gson.properties
+|   |       |   guava-33.4.6-jre.jar
+|   |       |   guava.properties
+|   |       |   httpclient-4.5.14.jar
+|   |       |   httpclient.properties
+|   |       |   httpcore-4.4.14.jar
+|   |       |   httpcore.properties
+|   |       |   jackson-annotations-2.16.1.jar
+|   |       |   jackson-annotations.properties
+|   |       |   jackson-bom.properties
+|   |       |   jackson-core-2.16.1.jar
+|   |       |   jackson-core.properties
+|   |       |   jackson-databind-2.16.1.jar
+|   |       |   jackson-databind.properties
+|   |       |   jackson-datatype-jdk8-2.16.1.jar
+|   |       |   jackson-datatype-jdk8.properties
+|   |       |   jackson-datatype-jsr310-2.16.1.jar
+|   |       |   jackson-datatype-jsr310.properties
+|   |       |   jansi-2.4.2.jar
+|   |       |   jansi.properties
+|   |       |   javaparser-core-3.27.1.jar
+|   |       |   javaparser-core.properties
+|   |       |   javax.inject-1.jar
+|   |       |   javax.inject.properties
+|   |       |   jcifs-1.3.17.jar
+|   |       |   jcifs.properties
+|   |       |   jcl-over-slf4j-2.0.17.jar
+|   |       |   jcl-over-slf4j.properties
+|   |       |   jnr-constants-0.10.4-min.jar
+|   |       |   jnr-constants.properties
+|   |       |   jsoup-1.15.3.jar
+|   |       |   jsoup.properties
+|   |       |   jspecify-1.0.0-no-module-annotation.jar
+|   |       |   jspecify.properties
+|   |       |   jsr305-3.0.2.jar
+|   |       |   jsr305.properties
+|   |       |   jul-to-slf4j-2.0.17.jar
+|   |       |   jul-to-slf4j.properties
+|   |       |   junit-bom.properties
+|   |       |   kotlin-assignment-compiler-plugin-embeddable-2.3.0.jar
+|   |       |   kotlin-assignment-compiler-plugin-embeddable.properties
+|   |       |   kotlin-build-tools-impl-2.3.0.jar
+|   |       |   kotlin-build-tools-impl.properties
+|   |       |   kotlin-compiler-embeddable-2.3.0.jar
+|   |       |   kotlin-compiler-embeddable.properties
+|   |       |   kotlin-daemon-embeddable-2.3.0.jar
+|   |       |   kotlin-daemon-embeddable.properties
+|   |       |   kotlin-reflect-2.3.0.jar
+|   |       |   kotlin-reflect.properties
+|   |       |   kotlin-sam-with-receiver-compiler-plugin-2.3.0.jar
+|   |       |   kotlin-sam-with-receiver-compiler-plugin.properties
+|   |       |   kotlin-script-runtime-2.3.0.jar
+|   |       |   kotlin-script-runtime.properties
+|   |       |   kotlin-scripting-common-2.3.0.jar
+|   |       |   kotlin-scripting-common.properties
+|   |       |   kotlin-scripting-compiler-embeddable-2.3.0.jar
+|   |       |   kotlin-scripting-compiler-embeddable.properties
+|   |       |   kotlin-scripting-compiler-impl-embeddable-2.3.0.jar
+|   |       |   kotlin-scripting-compiler-impl-embeddable.properties
+|   |       |   kotlin-scripting-jvm-2.3.0.jar
+|   |       |   kotlin-scripting-jvm-host-2.3.0.jar
+|   |       |   kotlin-scripting-jvm-host.properties
+|   |       |   kotlin-scripting-jvm.properties
+|   |       |   kotlin-stdlib-2.3.0.jar
+|   |       |   kotlin-stdlib.properties
+|   |       |   kotlinx-coroutines-core-jvm-1.10.2.jar
+|   |       |   kotlinx-coroutines-core-jvm.properties
+|   |       |   kotlinx-serialization-bom.properties
+|   |       |   kotlinx-serialization-core-jvm-1.9.0.jar
+|   |       |   kotlinx-serialization-core-jvm.properties
+|   |       |   kotlinx-serialization-core.properties
+|   |       |   kotlinx-serialization-json-jvm-1.9.0.jar
+|   |       |   kotlinx-serialization-json-jvm.properties
+|   |       |   kotlinx-serialization-json.properties
+|   |       |   kryo-2.24.0.jar
+|   |       |   kryo.properties
+|   |       |   log4j-over-slf4j-2.0.17.jar
+|   |       |   log4j-over-slf4j.properties
+|   |       |   minlog-1.2.jar
+|   |       |   minlog.properties
+|   |       |   native-platform-0.22-milestone-29.jar
+|   |       |   native-platform-freebsd-amd64-libcpp-0.22-milestone-29.jar
+|   |       |   native-platform-freebsd-amd64-libcpp.properties
+|   |       |   native-platform-linux-aarch64-0.22-milestone-29.jar
+|   |       |   native-platform-linux-aarch64-ncurses5-0.22-milestone-29.jar
+|   |       |   native-platform-linux-aarch64-ncurses5.properties
+|   |       |   native-platform-linux-aarch64-ncurses6-0.22-milestone-29.jar
+|   |       |   native-platform-linux-aarch64-ncurses6.properties
+|   |       |   native-platform-linux-aarch64.properties
+|   |       |   native-platform-linux-amd64-0.22-milestone-29.jar
+|   |       |   native-platform-linux-amd64-ncurses5-0.22-milestone-29.jar
+|   |       |   native-platform-linux-amd64-ncurses5.properties
+|   |       |   native-platform-linux-amd64-ncurses6-0.22-milestone-29.jar
+|   |       |   native-platform-linux-amd64-ncurses6.properties
+|   |       |   native-platform-linux-amd64.properties
+|   |       |   native-platform-osx-aarch64-0.22-milestone-29.jar
+|   |       |   native-platform-osx-aarch64.properties
+|   |       |   native-platform-osx-amd64-0.22-milestone-29.jar
+|   |       |   native-platform-osx-amd64.properties
+|   |       |   native-platform-windows-aarch64-0.22-milestone-29.jar
+|   |       |   native-platform-windows-aarch64-min-0.22-milestone-29.jar
+|   |       |   native-platform-windows-aarch64-min.properties
+|   |       |   native-platform-windows-aarch64.properties
+|   |       |   native-platform-windows-amd64-0.22-milestone-29.jar
+|   |       |   native-platform-windows-amd64-min-0.22-milestone-29.jar
+|   |       |   native-platform-windows-amd64-min.properties
+|   |       |   native-platform-windows-amd64.properties
+|   |       |   native-platform-windows-i386-0.22-milestone-29.jar
+|   |       |   native-platform-windows-i386-min-0.22-milestone-29.jar
+|   |       |   native-platform-windows-i386-min.properties
+|   |       |   native-platform-windows-i386.properties
+|   |       |   native-platform.properties
+|   |       |   objenesis-2.6.jar
+|   |       |   objenesis.properties
+|   |       |   qdox-1.12.1.jar
+|   |       |   qdox.properties
+|   |       |   slf4j-api-2.0.17.jar
+|   |       |   slf4j-api.properties
+|   |       |   tomlj-1.0.0.jar
+|   |       |   tomlj.properties
+|   |       |   
+|   |       +---agents
+|   |       |       gradle-instrumentation-agent-9.4.0.jar
+|   |       |       gradle-instrumentation-agent.properties
+|   |       |       
+|   |       \---plugins
+|   |               aws-java-sdk-core-1.12.780.jar
+|   |               aws-java-sdk-core.properties
+|   |               aws-java-sdk-kms-1.12.780.jar
+|   |               aws-java-sdk-kms.properties
+|   |               aws-java-sdk-s3-1.12.780.jar
+|   |               aws-java-sdk-s3.properties
+|   |               aws-java-sdk-sts-1.12.780.jar
+|   |               aws-java-sdk-sts.properties
+|   |               bcpg-jdk18on-1.81.jar
+|   |               bcpg-jdk18on.properties
+|   |               bcprov-jdk18on-1.81.jar
+|   |               bcprov-jdk18on.properties
+|   |               bcutil-jdk18on-1.81.jar
+|   |               bcutil-jdk18on.properties
+|   |               dd-plist-1.27.jar
+|   |               dd-plist.properties
+|   |               google-api-client-1.34.0.jar
+|   |               google-api-client.properties
+|   |               google-api-services-storage-v1-rev20220705-1.32.1.jar
+|   |               google-api-services-storage.properties
+|   |               google-http-client-1.42.2.jar
+|   |               google-http-client-apache-v2-1.42.2.jar
+|   |               google-http-client-apache-v2.properties
+|   |               google-http-client-gson-1.42.2.jar
+|   |               google-http-client-gson.properties
+|   |               google-http-client.properties
+|   |               google-oauth-client-1.34.1.jar
+|   |               google-oauth-client.properties
+|   |               gradle-antlr-9.4.0.jar
+|   |               gradle-antlr.properties
+|   |               gradle-base-ide-plugins-9.4.0.jar
+|   |               gradle-base-ide-plugins.properties
+|   |               gradle-bean-serialization-services-9.4.0.jar
+|   |               gradle-bean-serialization-services.properties
+|   |               gradle-build-cache-http-9.4.0.jar
+|   |               gradle-build-cache-http.properties
+|   |               gradle-build-init-9.4.0.jar
+|   |               gradle-build-init.properties
+|   |               gradle-build-profile-9.4.0.jar
+|   |               gradle-build-profile.properties
+|   |               gradle-code-quality-9.4.0.jar
+|   |               gradle-code-quality.properties
+|   |               gradle-composite-builds-9.4.0.jar
+|   |               gradle-composite-builds.properties
+|   |               gradle-configuration-cache-9.4.0.jar
+|   |               gradle-configuration-cache-base-9.4.0.jar
+|   |               gradle-configuration-cache-base.properties
+|   |               gradle-configuration-cache.properties
+|   |               gradle-core-serialization-codecs-9.4.0.jar
+|   |               gradle-core-serialization-codecs.properties
+|   |               gradle-daemon-server-worker-9.4.0.jar
+|   |               gradle-daemon-server-worker.properties
+|   |               gradle-declarative-dsl-tooling-builders-9.4.0.jar
+|   |               gradle-declarative-dsl-tooling-builders.properties
+|   |               gradle-dependency-management-9.4.0.jar
+|   |               gradle-dependency-management-serialization-codecs-9.4.0.jar
+|   |               gradle-dependency-management-serialization-codecs.properties
+|   |               gradle-dependency-management.properties
+|   |               gradle-distributions-basics.properties
+|   |               gradle-distributions-core.properties
+|   |               gradle-distributions-jvm.properties
+|   |               gradle-distributions-native.properties
+|   |               gradle-distributions-publishing.properties
+|   |               gradle-ear-9.4.0.jar
+|   |               gradle-ear.properties
+|   |               gradle-encryption-services-9.4.0.jar
+|   |               gradle-encryption-services.properties
+|   |               gradle-enterprise-9.4.0.jar
+|   |               gradle-enterprise.properties
+|   |               gradle-flow-services-9.4.0.jar
+|   |               gradle-flow-services.properties
+|   |               gradle-graph-isolation-9.4.0.jar
+|   |               gradle-graph-isolation.properties
+|   |               gradle-graph-serialization-9.4.0.jar
+|   |               gradle-graph-serialization.properties
+|   |               gradle-guava-serialization-codecs-9.4.0.jar
+|   |               gradle-guava-serialization-codecs.properties
+|   |               gradle-ide-9.4.0.jar
+|   |               gradle-ide-native-9.4.0.jar
+|   |               gradle-ide-native.properties
+|   |               gradle-ide-plugins-9.4.0.jar
+|   |               gradle-ide-plugins.properties
+|   |               gradle-ide.properties
+|   |               gradle-instrumentation-declarations-9.4.0.jar
+|   |               gradle-instrumentation-declarations.properties
+|   |               gradle-isolated-action-services-9.4.0.jar
+|   |               gradle-isolated-action-services.properties
+|   |               gradle-ivy-9.4.0.jar
+|   |               gradle-ivy.properties
+|   |               gradle-jacoco-9.4.0.jar
+|   |               gradle-jacoco.properties
+|   |               gradle-java-compiler-plugin-9.4.0.jar
+|   |               gradle-java-compiler-plugin.properties
+|   |               gradle-java-platform-9.4.0.jar
+|   |               gradle-java-platform.properties
+|   |               gradle-javadoc-9.4.0.jar
+|   |               gradle-javadoc.properties
+|   |               gradle-kotlin-dsl-provider-plugins-9.4.0.jar
+|   |               gradle-kotlin-dsl-provider-plugins.properties
+|   |               gradle-kotlin-dsl-tooling-builders-9.4.0.jar
+|   |               gradle-kotlin-dsl-tooling-builders.properties
+|   |               gradle-language-groovy-9.4.0.jar
+|   |               gradle-language-groovy.properties
+|   |               gradle-language-java-9.4.0.jar
+|   |               gradle-language-java.properties
+|   |               gradle-language-jvm-9.4.0.jar
+|   |               gradle-language-jvm.properties
+|   |               gradle-language-native-9.4.0.jar
+|   |               gradle-language-native.properties
+|   |               gradle-maven-9.4.0.jar
+|   |               gradle-maven.properties
+|   |               gradle-platform-base-9.4.0.jar
+|   |               gradle-platform-base.properties
+|   |               gradle-platform-jvm-9.4.0.jar
+|   |               gradle-platform-jvm.properties
+|   |               gradle-platform-native-9.4.0.jar
+|   |               gradle-platform-native.properties
+|   |               gradle-plugin-development-9.4.0.jar
+|   |               gradle-plugin-development.properties
+|   |               gradle-plugin-use-9.4.0.jar
+|   |               gradle-plugin-use.properties
+|   |               gradle-plugins-application-9.4.0.jar
+|   |               gradle-plugins-application.properties
+|   |               gradle-plugins-distribution-9.4.0.jar
+|   |               gradle-plugins-distribution.properties
+|   |               gradle-plugins-groovy-9.4.0.jar
+|   |               gradle-plugins-groovy.properties
+|   |               gradle-plugins-java-9.4.0.jar
+|   |               gradle-plugins-java-base-9.4.0.jar
+|   |               gradle-plugins-java-base.properties
+|   |               gradle-plugins-java-library-9.4.0.jar
+|   |               gradle-plugins-java-library.properties
+|   |               gradle-plugins-java.properties
+|   |               gradle-plugins-jvm-test-fixtures-9.4.0.jar
+|   |               gradle-plugins-jvm-test-fixtures.properties
+|   |               gradle-plugins-jvm-test-suite-9.4.0.jar
+|   |               gradle-plugins-jvm-test-suite.properties
+|   |               gradle-plugins-test-report-aggregation-9.4.0.jar
+|   |               gradle-plugins-test-report-aggregation.properties
+|   |               gradle-plugins-version-catalog-9.4.0.jar
+|   |               gradle-plugins-version-catalog.properties
+|   |               gradle-publish-9.4.0.jar
+|   |               gradle-publish.properties
+|   |               gradle-reporting-9.4.0.jar
+|   |               gradle-reporting.properties
+|   |               gradle-resources-gcs-9.4.0.jar
+|   |               gradle-resources-gcs.properties
+|   |               gradle-resources-s3-9.4.0.jar
+|   |               gradle-resources-s3.properties
+|   |               gradle-resources-sftp-9.4.0.jar
+|   |               gradle-resources-sftp.properties
+|   |               gradle-scala-9.4.0.jar
+|   |               gradle-scala.properties
+|   |               gradle-security-9.4.0.jar
+|   |               gradle-security.properties
+|   |               gradle-signing-9.4.0.jar
+|   |               gradle-signing.properties
+|   |               gradle-software-diagnostics-9.4.0.jar
+|   |               gradle-software-diagnostics.properties
+|   |               gradle-stdlib-serialization-codecs-9.4.0.jar
+|   |               gradle-stdlib-serialization-codecs.properties
+|   |               gradle-test-kit-9.4.0.jar
+|   |               gradle-test-kit.properties
+|   |               gradle-test-suites-base-9.4.0.jar
+|   |               gradle-test-suites-base.properties
+|   |               gradle-testing-base-9.4.0.jar
+|   |               gradle-testing-base-infrastructure-9.4.0.jar
+|   |               gradle-testing-base-infrastructure.properties
+|   |               gradle-testing-base.properties
+|   |               gradle-testing-jvm-9.4.0.jar
+|   |               gradle-testing-jvm-infrastructure-9.4.0.jar
+|   |               gradle-testing-jvm-infrastructure.properties
+|   |               gradle-testing-jvm.properties
+|   |               gradle-testing-native-9.4.0.jar
+|   |               gradle-testing-native.properties
+|   |               gradle-toolchains-jvm-9.4.0.jar
+|   |               gradle-toolchains-jvm.properties
+|   |               gradle-tooling-api-builders-9.4.0.jar
+|   |               gradle-tooling-api-builders.properties
+|   |               gradle-tooling-native-9.4.0.jar
+|   |               gradle-tooling-native.properties
+|   |               gradle-unit-test-fixtures-9.4.0.jar
+|   |               gradle-unit-test-fixtures.properties
+|   |               gradle-version-control-9.4.0.jar
+|   |               gradle-version-control.properties
+|   |               gradle-war-9.4.0.jar
+|   |               gradle-war.properties
+|   |               gradle-workers-9.4.0.jar
+|   |               gradle-workers.properties
+|   |               gradle-wrapper-main-9.4.0.jar
+|   |               gradle-wrapper-main.properties
+|   |               grpc-context-1.27.2.jar
+|   |               grpc-context.properties
+|   |               ivy-2.5.3.jar
+|   |               ivy.properties
+|   |               jatl-0.2.3.jar
+|   |               jatl.properties
+|   |               jmespath-java-1.12.780.jar
+|   |               jmespath-java.properties
+|   |               jna-5.17.0.jar
+|   |               jna-platform-5.17.0.jar
+|   |               jna-platform.properties
+|   |               jna.properties
+|   |               joda-time-2.14.0.jar
+|   |               joda-time.properties
+|   |               jsch-0.2.16.jar
+|   |               jsch.properties
+|   |               maven-builder-support-3.9.5.jar
+|   |               maven-builder-support.properties
+|   |               maven-model-3.9.5.jar
+|   |               maven-model.properties
+|   |               maven-repository-metadata-3.9.5.jar
+|   |               maven-repository-metadata.properties
+|   |               maven-settings-3.9.5.jar
+|   |               maven-settings-builder-3.9.5.jar
+|   |               maven-settings-builder.properties
+|   |               maven-settings.properties
+|   |               opencensus-api-0.31.1.jar
+|   |               opencensus-api.properties
+|   |               opencensus-contrib-http-util-0.31.1.jar
+|   |               opencensus-contrib-http-util.properties
+|   |               org.eclipse.jgit-7.2.1.202505142326-r.jar
+|   |               org.eclipse.jgit.properties
+|   |               org.eclipse.jgit.ssh.apache-7.2.1.202505142326-r.jar
+|   |               org.eclipse.jgit.ssh.apache.agent-7.2.1.202505142326-r.jar
+|   |               org.eclipse.jgit.ssh.apache.agent.properties
+|   |               org.eclipse.jgit.ssh.apache.properties
+|   |               plexus-cipher-2.0.jar
+|   |               plexus-cipher.properties
+|   |               plexus-interpolation-1.26.jar
+|   |               plexus-interpolation.properties
+|   |               plexus-sec-dispatcher-2.0.jar
+|   |               plexus-sec-dispatcher.properties
+|   |               plexus-utils-3.5.1.jar
+|   |               plexus-utils.properties
+|   |               snakeyaml-2.0.jar
+|   |               snakeyaml.properties
+|   |               sshd-osgi-2.15.0.jar
+|   |               sshd-osgi.properties
+|   |               sshd-sftp-2.15.0.jar
+|   |               sshd-sftp.properties
+|   |               
+|   \---gradle-9.4.1
+|       +---bin
+|       +---init.d
+|       \---lib
+|           |   annotations-24.0.1.jar
+|           |   annotations.properties
+|           |   ant-1.10.15.jar
+|           |   ant-antlr-1.10.15.jar
+|           |   ant-antlr.properties
+|           |   ant-launcher-1.10.15.jar
+|           |   ant-launcher.properties
+|           |   ant.properties
+|           |   antlr4-runtime-4.7.2.jar
+|           |   antlr4-runtime.properties
+|           |   asm-9.9.jar
+|           |   asm-commons-9.9.jar
+|           |   asm-commons.properties
+|           |   asm-tree-9.9.jar
+|           |   asm-tree.properties
+|           |   asm.properties
+|           |   commons-codec-1.18.0.jar
+|           |   commons-codec.properties
+|           |   commons-compress-1.26.1.jar
+|           |   commons-compress.properties
+|           |   commons-io-2.15.1.jar
+|           |   commons-io.properties
+|           |   commons-lang3-3.20.0.jar
+|           |   commons-lang3.properties
+|           |   error_prone_annotations-2.42.0.jar
+|           |   error_prone_annotations.properties
+|           |   failureaccess-1.0.3.jar
+|           |   failureaccess.properties
+|           |   fastutil-8.5.2-min.jar
+|           |   fastutil.properties
+|           |   gradle-api-metadata-9.4.1.jar
+|           |   gradle-api-metadata.properties
+|           |   gradle-base-asm-9.4.1.jar
+|           |   gradle-base-asm.properties
+|           |   gradle-base-diagnostics-9.4.1.jar
+|           |   gradle-base-diagnostics.properties
+|           |   gradle-base-services-9.4.1.jar
+|           |   gradle-base-services-groovy-9.4.1.jar
+|           |   gradle-base-services-groovy.properties
+|           |   gradle-base-services.properties
+|           |   gradle-build-cache-9.4.1.jar
+|           |   gradle-build-cache-base-9.4.1.jar
+|           |   gradle-build-cache-base.properties
+|           |   gradle-build-cache-local-9.4.1.jar
+|           |   gradle-build-cache-local.properties
+|           |   gradle-build-cache-packaging-9.4.1.jar
+|           |   gradle-build-cache-packaging.properties
+|           |   gradle-build-cache-spi-9.4.1.jar
+|           |   gradle-build-cache-spi.properties
+|           |   gradle-build-cache.properties
+|           |   gradle-build-configuration-9.4.1.jar
+|           |   gradle-build-configuration.properties
+|           |   gradle-build-discovery-9.4.1.jar
+|           |   gradle-build-discovery-impl-9.4.1.jar
+|           |   gradle-build-discovery-impl.properties
+|           |   gradle-build-discovery-reporting-9.4.1.jar
+|           |   gradle-build-discovery-reporting.properties
+|           |   gradle-build-discovery.properties
+|           |   gradle-build-events-9.4.1.jar
+|           |   gradle-build-events.properties
+|           |   gradle-build-init-specs-9.4.1.jar
+|           |   gradle-build-init-specs-api-9.4.1.jar
+|           |   gradle-build-init-specs-api.properties
+|           |   gradle-build-init-specs.properties
+|           |   gradle-build-operations-9.4.1.jar
+|           |   gradle-build-operations-trace-9.4.1.jar
+|           |   gradle-build-operations-trace.properties
+|           |   gradle-build-operations.properties
+|           |   gradle-build-option-9.4.1.jar
+|           |   gradle-build-option.properties
+|           |   gradle-build-process-services-9.4.1.jar
+|           |   gradle-build-process-services.properties
+|           |   gradle-build-state-9.4.1.jar
+|           |   gradle-build-state.properties
+|           |   gradle-classloaders-9.4.1.jar
+|           |   gradle-classloaders.properties
+|           |   gradle-cli-9.4.1.jar
+|           |   gradle-cli.properties
+|           |   gradle-client-services-9.4.1.jar
+|           |   gradle-client-services.properties
+|           |   gradle-collections-9.4.1.jar
+|           |   gradle-collections.properties
+|           |   gradle-concurrent-9.4.1.jar
+|           |   gradle-concurrent.properties
+|           |   gradle-configuration-problems-base-9.4.1.jar
+|           |   gradle-configuration-problems-base.properties
+|           |   gradle-core-9.4.1.jar
+|           |   gradle-core-api-9.4.1.jar
+|           |   gradle-core-api.properties
+|           |   gradle-core-flow-services-api-9.4.1.jar
+|           |   gradle-core-flow-services-api.properties
+|           |   gradle-core-kotlin-extensions-9.4.1.jar
+|           |   gradle-core-kotlin-extensions.properties
+|           |   gradle-core-platform.properties
+|           |   gradle-core.properties
+|           |   gradle-daemon-logging-9.4.1.jar
+|           |   gradle-daemon-logging.properties
+|           |   gradle-daemon-main-9.4.1.jar
+|           |   gradle-daemon-main.properties
+|           |   gradle-daemon-protocol-9.4.1.jar
+|           |   gradle-daemon-protocol.properties
+|           |   gradle-daemon-server-9.4.1.jar
+|           |   gradle-daemon-server.properties
+|           |   gradle-daemon-services-9.4.1.jar
+|           |   gradle-daemon-services.properties
+|           |   gradle-declarative-dsl-api-9.4.1.jar
+|           |   gradle-declarative-dsl-api.properties
+|           |   gradle-declarative-dsl-core-9.4.1.jar
+|           |   gradle-declarative-dsl-core.properties
+|           |   gradle-declarative-dsl-evaluator-9.4.1.jar
+|           |   gradle-declarative-dsl-evaluator.properties
+|           |   gradle-declarative-dsl-provider-9.4.1.jar
+|           |   gradle-declarative-dsl-provider.properties
+|           |   gradle-declarative-dsl-tooling-models-9.4.1.jar
+|           |   gradle-declarative-dsl-tooling-models.properties
+|           |   gradle-distributions-dependencies.properties
+|           |   gradle-enterprise-logging-9.4.1.jar
+|           |   gradle-enterprise-logging.properties
+|           |   gradle-enterprise-operations-9.4.1.jar
+|           |   gradle-enterprise-operations.properties
+|           |   gradle-enterprise-workers-9.4.1.jar
+|           |   gradle-enterprise-workers.properties
+|           |   gradle-execution-9.4.1.jar
+|           |   gradle-execution.properties
+|           |   gradle-file-collections-9.4.1.jar
+|           |   gradle-file-collections.properties
+|           |   gradle-file-operations-9.4.1.jar
+|           |   gradle-file-operations.properties
+|           |   gradle-file-temp-9.4.1.jar
+|           |   gradle-file-temp.properties
+|           |   gradle-file-watching-9.4.1.jar
+|           |   gradle-file-watching.properties
+|           |   gradle-fileevents-0.2.8.jar
+|           |   gradle-fileevents.properties
+|           |   gradle-files-9.4.1.jar
+|           |   gradle-files.properties
+|           |   gradle-functional-9.4.1.jar
+|           |   gradle-functional.properties
+|           |   gradle-gradle-cli-9.4.1.jar
+|           |   gradle-gradle-cli-main-9.4.1.jar
+|           |   gradle-gradle-cli-main.properties
+|           |   gradle-gradle-cli.properties
+|           |   gradle-groovy-loader-9.4.1.jar
+|           |   gradle-groovy-loader.properties
+|           |   gradle-hashing-9.4.1.jar
+|           |   gradle-hashing.properties
+|           |   gradle-input-tracking-9.4.1.jar
+|           |   gradle-input-tracking.properties
+|           |   gradle-installation-beacon-9.4.1.jar
+|           |   gradle-installation-beacon.properties
+|           |   gradle-instrumentation-agent-services-9.4.1.jar
+|           |   gradle-instrumentation-agent-services.properties
+|           |   gradle-instrumentation-reporting-9.4.1.jar
+|           |   gradle-instrumentation-reporting.properties
+|           |   gradle-internal-instrumentation-api-9.4.1.jar
+|           |   gradle-internal-instrumentation-api.properties
+|           |   gradle-io-9.4.1.jar
+|           |   gradle-io.properties
+|           |   gradle-java-api-extractor-9.4.1.jar
+|           |   gradle-java-api-extractor.properties
+|           |   gradle-jvm-services-9.4.1.jar
+|           |   gradle-jvm-services.properties
+|           |   gradle-kotlin-dsl-9.4.1.jar
+|           |   gradle-kotlin-dsl-extensions-9.4.1.jar
+|           |   gradle-kotlin-dsl-extensions.properties
+|           |   gradle-kotlin-dsl-shared-runtime-9.4.1.jar
+|           |   gradle-kotlin-dsl-shared-runtime.properties
+|           |   gradle-kotlin-dsl-tooling-models-9.4.1.jar
+|           |   gradle-kotlin-dsl-tooling-models.properties
+|           |   gradle-kotlin-dsl.properties
+|           |   gradle-launcher-9.4.1.jar
+|           |   gradle-launcher.properties
+|           |   gradle-logging-9.4.1.jar
+|           |   gradle-logging-api-9.4.1.jar
+|           |   gradle-logging-api.properties
+|           |   gradle-logging.properties
+|           |   gradle-messaging-9.4.1.jar
+|           |   gradle-messaging.properties
+|           |   gradle-model-core-9.4.1.jar
+|           |   gradle-model-core.properties
+|           |   gradle-model-groovy-9.4.1.jar
+|           |   gradle-model-groovy.properties
+|           |   gradle-model-reflect-9.4.1.jar
+|           |   gradle-model-reflect.properties
+|           |   gradle-native-9.4.1.jar
+|           |   gradle-native.properties
+|           |   gradle-normalization-java-9.4.1.jar
+|           |   gradle-normalization-java.properties
+|           |   gradle-persistent-cache-9.4.1.jar
+|           |   gradle-persistent-cache.properties
+|           |   gradle-problems-9.4.1.jar
+|           |   gradle-problems-api-9.4.1.jar
+|           |   gradle-problems-api.properties
+|           |   gradle-problems-rendering-9.4.1.jar
+|           |   gradle-problems-rendering.properties
+|           |   gradle-problems.properties
+|           |   gradle-process-memory-services-9.4.1.jar
+|           |   gradle-process-memory-services.properties
+|           |   gradle-process-services-9.4.1.jar
+|           |   gradle-process-services.properties
+|           |   gradle-project-features-9.4.1.jar
+|           |   gradle-project-features-api-9.4.1.jar
+|           |   gradle-project-features-api.properties
+|           |   gradle-project-features.properties
+|           |   gradle-report-rendering-9.4.1.jar
+|           |   gradle-report-rendering.properties
+|           |   gradle-request-handler-worker-9.4.1.jar
+|           |   gradle-request-handler-worker.properties
+|           |   gradle-resources-9.4.1.jar
+|           |   gradle-resources-http-9.4.1.jar
+|           |   gradle-resources-http.properties
+|           |   gradle-resources.properties
+|           |   gradle-runtime-api-info-9.4.1.jar
+|           |   gradle-runtime-api-info.properties
+|           |   gradle-scoped-persistent-cache-9.4.1.jar
+|           |   gradle-scoped-persistent-cache.properties
+|           |   gradle-serialization-9.4.1.jar
+|           |   gradle-serialization.properties
+|           |   gradle-service-lookup-9.4.1.jar
+|           |   gradle-service-lookup.properties
+|           |   gradle-service-provider-9.4.1.jar
+|           |   gradle-service-provider.properties
+|           |   gradle-service-registry-builder-9.4.1.jar
+|           |   gradle-service-registry-builder.properties
+|           |   gradle-service-registry-impl-9.4.1.jar
+|           |   gradle-service-registry-impl.properties
+|           |   gradle-snapshots-9.4.1.jar
+|           |   gradle-snapshots.properties
+|           |   gradle-stdlib-java-extensions-9.4.1.jar
+|           |   gradle-stdlib-java-extensions.properties
+|           |   gradle-stdlib-kotlin-extensions-9.4.1.jar
+|           |   gradle-stdlib-kotlin-extensions.properties
+|           |   gradle-time-9.4.1.jar
+|           |   gradle-time.properties
+|           |   gradle-toolchains-jvm-shared-9.4.1.jar
+|           |   gradle-toolchains-jvm-shared.properties
+|           |   gradle-tooling-api-9.4.1.jar
+|           |   gradle-tooling-api-provider-9.4.1.jar
+|           |   gradle-tooling-api-provider.properties
+|           |   gradle-tooling-api.properties
+|           |   gradle-versioned-cache-9.4.1.jar
+|           |   gradle-versioned-cache.properties
+|           |   gradle-worker-main-9.4.1.jar
+|           |   gradle-worker-main.properties
+|           |   gradle-wrapper-shared-9.4.1.jar
+|           |   gradle-wrapper-shared.properties
+|           |   groovy-4.0.29.jar
+|           |   groovy-ant-4.0.29.jar
+|           |   groovy-ant.properties
+|           |   groovy-astbuilder-4.0.29.jar
+|           |   groovy-astbuilder.properties
+|           |   groovy-bom.properties
+|           |   groovy-datetime-4.0.29.jar
+|           |   groovy-datetime.properties
+|           |   groovy-dateutil-4.0.29.jar
+|           |   groovy-dateutil.properties
+|           |   groovy-docgenerator-4.0.29.jar
+|           |   groovy-docgenerator.properties
+|           |   groovy-groovydoc-4.0.29.jar
+|           |   groovy-groovydoc.properties
+|           |   groovy-json-4.0.29.jar
+|           |   groovy-json.properties
+|           |   groovy-nio-4.0.29.jar
+|           |   groovy-nio.properties
+|           |   groovy-templates-4.0.29.jar
+|           |   groovy-templates.properties
+|           |   groovy-xml-4.0.29.jar
+|           |   groovy-xml.properties
+|           |   groovy.properties
+|           |   gson-2.13.1.jar
+|           |   gson.properties
+|           |   guava-33.4.6-jre.jar
+|           |   guava.properties
+|           |   httpclient-4.5.14.jar
+|           |   httpclient.properties
+|           |   httpcore-4.4.14.jar
+|           |   httpcore.properties
+|           |   jackson-annotations-2.18.6.jar
+|           |   jackson-annotations.properties
+|           |   jackson-bom.properties
+|           |   jackson-core-2.18.6.jar
+|           |   jackson-core.properties
+|           |   jackson-databind-2.18.6.jar
+|           |   jackson-databind.properties
+|           |   jackson-datatype-jdk8-2.18.6.jar
+|           |   jackson-datatype-jdk8.properties
+|           |   jackson-datatype-jsr310-2.18.6.jar
+|           |   jackson-datatype-jsr310.properties
+|           |   jansi-2.4.2.jar
+|           |   jansi.properties
+|           |   javaparser-core-3.27.1.jar
+|           |   javaparser-core.properties
+|           |   javax.inject-1.jar
+|           |   javax.inject.properties
+|           |   jcifs-1.3.17.jar
+|           |   jcifs.properties
+|           |   jcl-over-slf4j-2.0.17.jar
+|           |   jcl-over-slf4j.properties
+|           |   jnr-constants-0.10.4-min.jar
+|           |   jnr-constants.properties
+|           |   jsoup-1.15.3.jar
+|           |   jsoup.properties
+|           |   jspecify-1.0.0-no-module-annotation.jar
+|           |   jspecify.properties
+|           |   jsr305-3.0.2.jar
+|           |   jsr305.properties
+|           |   jul-to-slf4j-2.0.17.jar
+|           |   jul-to-slf4j.properties
+|           |   junit-bom.properties
+|           |   kotlin-assignment-compiler-plugin-embeddable-2.3.0.jar
+|           |   kotlin-assignment-compiler-plugin-embeddable.properties
+|           |   kotlin-build-tools-impl-2.3.0.jar
+|           |   kotlin-build-tools-impl.properties
+|           |   kotlin-compiler-embeddable-2.3.0.jar
+|           |   kotlin-compiler-embeddable.properties
+|           |   kotlin-daemon-embeddable-2.3.0.jar
+|           |   kotlin-daemon-embeddable.properties
+|           |   kotlin-reflect-2.3.0.jar
+|           |   kotlin-reflect.properties
+|           |   kotlin-sam-with-receiver-compiler-plugin-2.3.0.jar
+|           |   kotlin-sam-with-receiver-compiler-plugin.properties
+|           |   kotlin-script-runtime-2.3.0.jar
+|           |   kotlin-script-runtime.properties
+|           |   kotlin-scripting-common-2.3.0.jar
+|           |   kotlin-scripting-common.properties
+|           |   kotlin-scripting-compiler-embeddable-2.3.0.jar
+|           |   kotlin-scripting-compiler-embeddable.properties
+|           |   kotlin-scripting-compiler-impl-embeddable-2.3.0.jar
+|           |   kotlin-scripting-compiler-impl-embeddable.properties
+|           |   kotlin-scripting-jvm-2.3.0.jar
+|           |   kotlin-scripting-jvm-host-2.3.0.jar
+|           |   kotlin-scripting-jvm-host.properties
+|           |   kotlin-scripting-jvm.properties
+|           |   kotlin-stdlib-2.3.0.jar
+|           |   kotlin-stdlib.properties
+|           |   kotlinx-coroutines-core-jvm-1.10.2.jar
+|           |   kotlinx-coroutines-core-jvm.properties
+|           |   kotlinx-serialization-bom.properties
+|           |   kotlinx-serialization-core-jvm-1.9.0.jar
+|           |   kotlinx-serialization-core-jvm.properties
+|           |   kotlinx-serialization-core.properties
+|           |   kotlinx-serialization-json-jvm-1.9.0.jar
+|           |   kotlinx-serialization-json-jvm.properties
+|           |   kotlinx-serialization-json.properties
+|           |   kryo-2.24.0.jar
+|           |   kryo.properties
+|           |   log4j-over-slf4j-2.0.17.jar
+|           |   log4j-over-slf4j.properties
+|           |   minlog-1.2.jar
+|           |   minlog.properties
+|           |   native-platform-0.22-milestone-29.jar
+|           |   native-platform-freebsd-amd64-libcpp-0.22-milestone-29.jar
+|           |   native-platform-freebsd-amd64-libcpp.properties
+|           |   native-platform-linux-aarch64-0.22-milestone-29.jar
+|           |   native-platform-linux-aarch64-ncurses5-0.22-milestone-29.jar
+|           |   native-platform-linux-aarch64-ncurses5.properties
+|           |   native-platform-linux-aarch64-ncurses6-0.22-milestone-29.jar
+|           |   native-platform-linux-aarch64-ncurses6.properties
+|           |   native-platform-linux-aarch64.properties
+|           |   native-platform-linux-amd64-0.22-milestone-29.jar
+|           |   native-platform-linux-amd64-ncurses5-0.22-milestone-29.jar
+|           |   native-platform-linux-amd64-ncurses5.properties
+|           |   native-platform-linux-amd64-ncurses6-0.22-milestone-29.jar
+|           |   native-platform-linux-amd64-ncurses6.properties
+|           |   native-platform-linux-amd64.properties
+|           |   native-platform-osx-aarch64-0.22-milestone-29.jar
+|           |   native-platform-osx-aarch64.properties
+|           |   native-platform-osx-amd64-0.22-milestone-29.jar
+|           |   native-platform-osx-amd64.properties
+|           |   native-platform-windows-aarch64-0.22-milestone-29.jar
+|           |   native-platform-windows-aarch64-min-0.22-milestone-29.jar
+|           |   native-platform-windows-aarch64-min.properties
+|           |   native-platform-windows-aarch64.properties
+|           |   native-platform-windows-amd64-0.22-milestone-29.jar
+|           |   native-platform-windows-amd64-min-0.22-milestone-29.jar
+|           |   native-platform-windows-amd64-min.properties
+|           |   native-platform-windows-amd64.properties
+|           |   native-platform-windows-i386-0.22-milestone-29.jar
+|           |   native-platform-windows-i386-min-0.22-milestone-29.jar
+|           |   native-platform-windows-i386-min.properties
+|           |   native-platform-windows-i386.properties
+|           |   native-platform.properties
+|           |   objenesis-2.6.jar
+|           |   objenesis.properties
+|           |   qdox-1.12.1.jar
+|           |   qdox.properties
+|           |   slf4j-api-2.0.17.jar
+|           |   slf4j-api.properties
+|           |   tomlj-1.0.0.jar
+|           |   tomlj.properties
+|           |   
+|           +---agents
+|           |       gradle-instrumentation-agent-9.4.1.jar
+|           |       gradle-instrumentation-agent.properties
+|           |       
+|           \---plugins
+|                   aws-java-sdk-core-1.12.780.jar
+|                   aws-java-sdk-core.properties
+|                   aws-java-sdk-kms-1.12.780.jar
+|                   aws-java-sdk-kms.properties
+|                   aws-java-sdk-s3-1.12.780.jar
+|                   aws-java-sdk-s3.properties
+|                   aws-java-sdk-sts-1.12.780.jar
+|                   aws-java-sdk-sts.properties
+|                   bcpg-jdk18on-1.81.jar
+|                   bcpg-jdk18on.properties
+|                   bcprov-jdk18on-1.81.jar
+|                   bcprov-jdk18on.properties
+|                   bcutil-jdk18on-1.81.jar
+|                   bcutil-jdk18on.properties
+|                   dd-plist-1.27.jar
+|                   dd-plist.properties
+|                   google-api-client-1.34.0.jar
+|                   google-api-client.properties
+|                   google-api-services-storage-v1-rev20220705-1.32.1.jar
+|                   google-api-services-storage.properties
+|                   google-http-client-1.42.2.jar
+|                   google-http-client-apache-v2-1.42.2.jar
+|                   google-http-client-apache-v2.properties
+|                   google-http-client-gson-1.42.2.jar
+|                   google-http-client-gson.properties
+|                   google-http-client.properties
+|                   google-oauth-client-1.34.1.jar
+|                   google-oauth-client.properties
+|                   gradle-antlr-9.4.1.jar
+|                   gradle-antlr.properties
+|                   gradle-base-ide-plugins-9.4.1.jar
+|                   gradle-base-ide-plugins.properties
+|                   gradle-bean-serialization-services-9.4.1.jar
+|                   gradle-bean-serialization-services.properties
+|                   gradle-build-cache-http-9.4.1.jar
+|                   gradle-build-cache-http.properties
+|                   gradle-build-init-9.4.1.jar
+|                   gradle-build-init.properties
+|                   gradle-build-profile-9.4.1.jar
+|                   gradle-build-profile.properties
+|                   gradle-code-quality-9.4.1.jar
+|                   gradle-code-quality.properties
+|                   gradle-composite-builds-9.4.1.jar
+|                   gradle-composite-builds.properties
+|                   gradle-configuration-cache-9.4.1.jar
+|                   gradle-configuration-cache-base-9.4.1.jar
+|                   gradle-configuration-cache-base.properties
+|                   gradle-configuration-cache.properties
+|                   gradle-core-serialization-codecs-9.4.1.jar
+|                   gradle-core-serialization-codecs.properties
+|                   gradle-daemon-server-worker-9.4.1.jar
+|                   gradle-daemon-server-worker.properties
+|                   gradle-declarative-dsl-tooling-builders-9.4.1.jar
+|                   gradle-declarative-dsl-tooling-builders.properties
+|                   gradle-dependency-management-9.4.1.jar
+|                   gradle-dependency-management-serialization-codecs-9.4.1.jar
+|                   gradle-dependency-management-serialization-codecs.properties
+|                   gradle-dependency-management.properties
+|                   gradle-distributions-basics.properties
+|                   gradle-distributions-core.properties
+|                   gradle-distributions-jvm.properties
+|                   gradle-distributions-native.properties
+|                   gradle-distributions-publishing.properties
+|                   gradle-ear-9.4.1.jar
+|                   gradle-ear.properties
+|                   gradle-encryption-services-9.4.1.jar
+|                   gradle-encryption-services.properties
+|                   gradle-enterprise-9.4.1.jar
+|                   gradle-enterprise.properties
+|                   gradle-flow-services-9.4.1.jar
+|                   gradle-flow-services.properties
+|                   gradle-graph-isolation-9.4.1.jar
+|                   gradle-graph-isolation.properties
+|                   gradle-graph-serialization-9.4.1.jar
+|                   gradle-graph-serialization.properties
+|                   gradle-guava-serialization-codecs-9.4.1.jar
+|                   gradle-guava-serialization-codecs.properties
+|                   gradle-ide-9.4.1.jar
+|                   gradle-ide-native-9.4.1.jar
+|                   gradle-ide-native.properties
+|                   gradle-ide-plugins-9.4.1.jar
+|                   gradle-ide-plugins.properties
+|                   gradle-ide.properties
+|                   gradle-instrumentation-declarations-9.4.1.jar
+|                   gradle-instrumentation-declarations.properties
+|                   gradle-isolated-action-services-9.4.1.jar
+|                   gradle-isolated-action-services.properties
+|                   gradle-ivy-9.4.1.jar
+|                   gradle-ivy.properties
+|                   gradle-jacoco-9.4.1.jar
+|                   gradle-jacoco.properties
+|                   gradle-java-compiler-plugin-9.4.1.jar
+|                   gradle-java-compiler-plugin.properties
+|                   gradle-java-platform-9.4.1.jar
+|                   gradle-java-platform.properties
+|                   gradle-javadoc-9.4.1.jar
+|                   gradle-javadoc.properties
+|                   gradle-kotlin-dsl-provider-plugins-9.4.1.jar
+|                   gradle-kotlin-dsl-provider-plugins.properties
+|                   gradle-kotlin-dsl-tooling-builders-9.4.1.jar
+|                   gradle-kotlin-dsl-tooling-builders.properties
+|                   gradle-language-groovy-9.4.1.jar
+|                   gradle-language-groovy.properties
+|                   gradle-language-java-9.4.1.jar
+|                   gradle-language-java.properties
+|                   gradle-language-jvm-9.4.1.jar
+|                   gradle-language-jvm.properties
+|                   gradle-language-native-9.4.1.jar
+|                   gradle-language-native.properties
+|                   gradle-maven-9.4.1.jar
+|                   gradle-maven.properties
+|                   gradle-platform-base-9.4.1.jar
+|                   gradle-platform-base.properties
+|                   gradle-platform-jvm-9.4.1.jar
+|                   gradle-platform-jvm.properties
+|                   gradle-platform-native-9.4.1.jar
+|                   gradle-platform-native.properties
+|                   gradle-plugin-development-9.4.1.jar
+|                   gradle-plugin-development.properties
+|                   gradle-plugin-use-9.4.1.jar
+|                   gradle-plugin-use.properties
+|                   gradle-plugins-application-9.4.1.jar
+|                   gradle-plugins-application.properties
+|                   gradle-plugins-distribution-9.4.1.jar
+|                   gradle-plugins-distribution.properties
+|                   gradle-plugins-groovy-9.4.1.jar
+|                   gradle-plugins-groovy.properties
+|                   gradle-plugins-java-9.4.1.jar
+|                   gradle-plugins-java-base-9.4.1.jar
+|                   gradle-plugins-java-base.properties
+|                   gradle-plugins-java-library-9.4.1.jar
+|                   gradle-plugins-java-library.properties
+|                   gradle-plugins-java.properties
+|                   gradle-plugins-jvm-test-fixtures-9.4.1.jar
+|                   gradle-plugins-jvm-test-fixtures.properties
+|                   gradle-plugins-jvm-test-suite-9.4.1.jar
+|                   gradle-plugins-jvm-test-suite.properties
+|                   gradle-plugins-test-report-aggregation-9.4.1.jar
+|                   gradle-plugins-test-report-aggregation.properties
+|                   gradle-plugins-version-catalog-9.4.1.jar
+|                   gradle-plugins-version-catalog.properties
+|                   gradle-publish-9.4.1.jar
+|                   gradle-publish.properties
+|                   gradle-reporting-9.4.1.jar
+|                   gradle-reporting.properties
+|                   gradle-resources-gcs-9.4.1.jar
+|                   gradle-resources-gcs.properties
+|                   gradle-resources-s3-9.4.1.jar
+|                   gradle-resources-s3.properties
+|                   gradle-resources-sftp-9.4.1.jar
+|                   gradle-resources-sftp.properties
+|                   gradle-scala-9.4.1.jar
+|                   gradle-scala.properties
+|                   gradle-security-9.4.1.jar
+|                   gradle-security.properties
+|                   gradle-signing-9.4.1.jar
+|                   gradle-signing.properties
+|                   gradle-software-diagnostics-9.4.1.jar
+|                   gradle-software-diagnostics.properties
+|                   gradle-stdlib-serialization-codecs-9.4.1.jar
+|                   gradle-stdlib-serialization-codecs.properties
+|                   gradle-test-kit-9.4.1.jar
+|                   gradle-test-kit.properties
+|                   gradle-test-suites-base-9.4.1.jar
+|                   gradle-test-suites-base.properties
+|                   gradle-testing-base-9.4.1.jar
+|                   gradle-testing-base-infrastructure-9.4.1.jar
+|                   gradle-testing-base-infrastructure.properties
+|                   gradle-testing-base.properties
+|                   gradle-testing-jvm-9.4.1.jar
+|                   gradle-testing-jvm-infrastructure-9.4.1.jar
+|                   gradle-testing-jvm-infrastructure.properties
+|                   gradle-testing-jvm.properties
+|                   gradle-testing-native-9.4.1.jar
+|                   gradle-testing-native.properties
+|                   gradle-toolchains-jvm-9.4.1.jar
+|                   gradle-toolchains-jvm.properties
+|                   gradle-tooling-api-builders-9.4.1.jar
+|                   gradle-tooling-api-builders.properties
+|                   gradle-tooling-native-9.4.1.jar
+|                   gradle-tooling-native.properties
+|                   gradle-unit-test-fixtures-9.4.1.jar
+|                   gradle-unit-test-fixtures.properties
+|                   gradle-version-control-9.4.1.jar
+|                   gradle-version-control.properties
+|                   gradle-war-9.4.1.jar
+|                   gradle-war.properties
+|                   gradle-workers-9.4.1.jar
+|                   gradle-workers.properties
+|                   gradle-wrapper-main-9.4.1.jar
+|                   gradle-wrapper-main.properties
+|                   grpc-context-1.27.2.jar
+|                   grpc-context.properties
+|                   ivy-2.5.3.jar
+|                   ivy.properties
+|                   jatl-0.2.3.jar
+|                   jatl.properties
+|                   jmespath-java-1.12.780.jar
+|                   jmespath-java.properties
+|                   jna-5.17.0.jar
+|                   jna-platform-5.17.0.jar
+|                   jna-platform.properties
+|                   jna.properties
+|                   joda-time-2.14.0.jar
+|                   joda-time.properties
+|                   jsch-0.2.16.jar
+|                   jsch.properties
+|                   maven-builder-support-3.9.5.jar
+|                   maven-builder-support.properties
+|                   maven-model-3.9.5.jar
+|                   maven-model.properties
+|                   maven-repository-metadata-3.9.5.jar
+|                   maven-repository-metadata.properties
+|                   maven-settings-3.9.5.jar
+|                   maven-settings-builder-3.9.5.jar
+|                   maven-settings-builder.properties
+|                   maven-settings.properties
+|                   opencensus-api-0.31.1.jar
+|                   opencensus-api.properties
+|                   opencensus-contrib-http-util-0.31.1.jar
+|                   opencensus-contrib-http-util.properties
+|                   org.eclipse.jgit-7.2.1.202505142326-r.jar
+|                   org.eclipse.jgit.properties
+|                   org.eclipse.jgit.ssh.apache-7.2.1.202505142326-r.jar
+|                   org.eclipse.jgit.ssh.apache.agent-7.2.1.202505142326-r.jar
+|                   org.eclipse.jgit.ssh.apache.agent.properties
+|                   org.eclipse.jgit.ssh.apache.properties
+|                   plexus-cipher-2.0.jar
+|                   plexus-cipher.properties
+|                   plexus-interpolation-1.26.jar
+|                   plexus-interpolation.properties
+|                   plexus-sec-dispatcher-2.0.jar
+|                   plexus-sec-dispatcher.properties
+|                   plexus-utils-3.5.1.jar
+|                   plexus-utils.properties
+|                   snakeyaml-2.0.jar
+|                   snakeyaml.properties
+|                   sshd-osgi-2.15.0.jar
+|                   sshd-osgi.properties
+|                   sshd-sftp-2.15.0.jar
+|                   sshd-sftp.properties
+|                   
++---build
+|   +---classes
+|   |   \---java
+|   |       \---main
+|   |           \---com
+|   |               \---example
+|   |                   \---voxelgame
+|   |                       |   VoxelGame.class
+|   |                       |   
+|   |                       +---camera
+|   |                       |       CameraConfig.class
+|   |                       |       FirstPersonCamera.class
+|   |                       |       
+|   |                       +---core
+|   |                       |       FrameStatistics.class
+|   |                       |       GameApplication.class
+|   |                       |       GameWindow.class
+|   |                       |       InputState$MouseDelta.class
+|   |                       |       InputState.class
+|   |                       |       LaunchOptions.class
+|   |                       |       WindowConfig.class
+|   |                       |       
+|   |                       +---math
+|   |                       |       Vector3f.class
+|   |                       |       
+|   |                       \---render
+|   |                               Renderer.class
+|   |                               
+|   +---distributions
+|   |       voxel-game.tar
+|   |       voxel-game.zip
+|   |       
+|   +---generated
+|   |   \---sources
+|   |       +---annotationProcessor
+|   |       |   \---java
+|   |       |       \---main
+|   |       \---headers
+|   |           \---java
+|   |               \---main
+|   +---libs
+|   |       voxel-game.jar
+|   |       
+|   +---reports
+|   |   \---configuration-cache
+|   |       \---nsi5i3usbcuo3ly686bo9lup
+|   |           \---2fkcb2din8zm4co80tu1hh45w
+|   |                   configuration-cache-report.html
+|   |                   
+|   +---scripts
+|   |       voxel-game
+|   |       voxel-game.bat
+|   |       
+|   \---tmp
+|       +---compileJava
+|       |       previous-compilation-data.bin
+|       |       
+|       \---jar
+|               MANIFEST.MF
+|               
++---scripts
+|       build.ps1
+|       run.ps1
+|       setup-gradle.ps1
+|       
+\---src
+    \---main
+        \---java
+            \---com
+                \---example
+                    \---voxelgame
+                        |   VoxelGame.java
+                        |   
+                        +---camera
+                        |       CameraConfig.java
+                        |       FirstPersonCamera.java
+                        |       
+                        +---core
+                        |       FrameStatistics.java
+                        |       GameApplication.java
+                        |       GameWindow.java
+                        |       InputState.java
+                        |       LaunchOptions.java
+                        |       WindowConfig.java
+                        |       
+                        +---math
+                        |       Vector3f.java
+                        |       
+                        \---render
+                                Renderer.java
+                                

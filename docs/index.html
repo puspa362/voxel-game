@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Voxel Game</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101418;
+      --panel: #171d23;
+      --panel-2: #202832;
+      --text: #edf2f4;
+      --muted: #aeb8c2;
+      --accent: #e0b15a;
+      --accent-2: #7ec7a5;
+      --line: #303a45;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    header,
+    section,
+    footer {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+      gap: 40px;
+      align-items: center;
+      min-height: 92vh;
+      padding: 56px 0 28px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(44px, 7vw, 92px);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+
+    p {
+      color: var(--muted);
+      margin: 0 0 20px;
+      max-width: 68ch;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .eyebrow {
+      color: var(--accent-2);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel-2);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button.primary {
+      border-color: #b68436;
+      background: var(--accent);
+      color: #21160b;
+    }
+
+    .preview {
+      border: 1px solid var(--line);
+      background: #0b0f12;
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .preview img {
+      display: block;
+      width: 100%;
+      image-rendering: pixelated;
+      border-radius: 4px;
+      background: #050607;
+    }
+
+    section {
+      padding: 48px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 18px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .control {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      border-bottom: 1px solid var(--line);
+      padding: 10px 0;
+      color: var(--muted);
+    }
+
+    code {
+      color: var(--text);
+      background: #0b0f12;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 2px 6px;
+      white-space: nowrap;
+    }
+
+    footer {
+      padding: 32px 0 56px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 820px) {
+      header,
+      .grid,
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="eyebrow">Java + LWJGL voxel survival project</div>
+      <h1>Voxel Game</h1>
+      <p>
+        A Minecraft-like desktop voxel engine with procedural terrain, chunk meshing,
+        inventory and crafting systems, passive mobs, villagers, villages, and a growing
+        library of build-friendly decorative blocks.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#run-locally">Run locally</a>
+        <a class="button" href="#features">Inspect features</a>
+      </div>
+    </div>
+    <div class="preview" aria-label="Texture atlas preview">
+      <img src="assets/atlas-preview.png" alt="Pixel-art texture atlas preview">
+    </div>
+  </header>
+
+  <section id="features">
+    <h2>Feature Breakdown</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Voxel Engine</h3>
+        <p>Chunked terrain, greedy mesh generation, texture atlas rendering, water surfaces, lighting, and first-person camera control.</p>
+      </article>
+      <article class="card">
+        <h3>Survival Systems</h3>
+        <p>Mining, placement, inventory, hotbar, crafting, furnaces, tools, item drops, food, health, hunger, and persistence.</p>
+      </article>
+      <article class="card">
+        <h3>Living World</h3>
+        <p>Biomes, ores, trees, plants, passive animals, village generation, villagers, professions, schedules, and trading foundations.</p>
+      </article>
+      <article class="card">
+        <h3>Building Blocks</h3>
+        <p>Stairs, fences, gates, doors, beds, lamps, lanterns, bells, flowers, grasses, and future-ready decorative block hooks.</p>
+      </article>
+      <article class="card">
+        <h3>Desktop Build</h3>
+        <p>Gradle packaging produces a runnable fat JAR with LWJGL/JOML dependencies and platform native libraries included.</p>
+      </article>
+      <article class="card">
+        <h3>Portfolio Ready</h3>
+        <p>GitHub Pages documentation, release notes, source archive task, and clear commands for local inspection and play.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="run-locally">
+    <h2>Controls</h2>
+    <p>The game is designed for mouse-look first-person desktop play.</p>
+    <div class="controls">
+      <div class="control"><span>Move</span><code>W A S D</code></div>
+      <div class="control"><span>Look</span><code>Mouse</code></div>
+      <div class="control"><span>Jump</span><code>Space</code></div>
+      <div class="control"><span>Mine / attack</span><code>Left mouse</code></div>
+      <div class="control"><span>Place / interact</span><code>Right mouse</code></div>
+      <div class="control"><span>Hotbar</span><code>1-9</code></div>
+      <div class="control"><span>Inventory</span><code>E</code></div>
+      <div class="control"><span>Toggle game mode</span><code>F9</code></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Run Locally</h2>
+    <p>Build the desktop JAR with Gradle, then launch it with Java.</p>
+    <p><code>powershell -ExecutionPolicy Bypass -File scripts\build.ps1</code></p>
+    <p><code>java --enable-native-access=ALL-UNNAMED -jar build\libs\voxel-game.jar</code></p>
+  </section>
+
+  <section>
+    <h2>Browser Status</h2>
+    <p>
+      This release is a native LWJGL/OpenGL desktop game. GitHub Pages hosts the inspection
+      site, while playable builds are distributed through GitHub Releases. A web-playable
+      port would require a separate WebGL/TeaVM rendering and input backend.
+    </p>
+  </section>
+
+  <footer>
+    Voxel Game - desktop Java voxel survival project.
+  </footer>
+</body>
+</html>

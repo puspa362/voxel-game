@@ -1,0 +1,29 @@
+# Gradle and build outputs
+.gradle/
+.gradle-user-home/
+.gradle-user-home-verify/
+.gradle-verify-cache/
+.gradle-verify-cache-2/
+build/
+bin/
+out/
+target/
+codex-compile-out/
+
+# Runtime state and local saves
+saves/
+*.log
+*.tmp
+*.lock
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Generated scratch artifacts
+InventoryTrace.class
+src/main/resources/assets/textures/atlas.decorative.tmp.png
+src/main/resources/assets/textures/atlas.before-*.png

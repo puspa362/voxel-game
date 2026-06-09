@@ -49,7 +49,8 @@ powershell -ExecutionPolicy Bypass -File scripts\build.ps1
 Or with Gradle directly:
 
 ```powershell
-.\gradlew.bat clean build
+$env:GRADLE_USER_HOME = Join-Path $env:TEMP "voxel-game-gradle\home"
+.\gradlew.bat --no-configuration-cache --project-cache-dir (Join-Path $env:TEMP "voxel-game-gradle\project-cache") clean jar sourceZip
 ```
 
 The runnable fat JAR is generated at:
@@ -78,7 +79,7 @@ The project uses a packed pixel-art texture atlas for terrain, items, UI, and de
 
 ![Texture atlas preview](docs/assets/atlas-preview.png)
 
-Add gameplay screenshots or GIF captures to `docs/assets/` when preparing the final GitHub Pages portfolio page.
+The same atlas preview is used by the GitHub Pages inspection site in `docs/index.html`.
 
 ## Web Playability
 
@@ -104,6 +105,7 @@ v1.0.0
 ```text
 src/main/java/        Java source code
 src/main/resources/   Runtime assets and texture atlas
+texture_sources/      Source block textures used to generate atlas assets
 scripts/              Build and asset helper scripts
 docs/                 GitHub Pages inspection site
 release-notes/        Release notes for GitHub releases

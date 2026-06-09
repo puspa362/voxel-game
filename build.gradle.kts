@@ -113,6 +113,7 @@ tasks.register<Zip>("sourceZip") {
         include("src/**")
         include("docs/**")
         include("scripts/**")
+        include("texture_sources/**")
         include("gradle/**")
         include("build.gradle.kts")
         include("settings.gradle.kts")

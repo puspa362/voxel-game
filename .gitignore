@@ -1,6 +1,9 @@
 # Gradle and build outputs
 .gradle/
 .gradle-user-home/
+.gradle-local-home/
+.gradle-local-project-cache/
+.gradle-build-verify/
 .gradle-user-home-verify/
 .gradle-verify-cache/
 .gradle-verify-cache-2/

@@ -30,3 +30,4 @@ Thumbs.db
 InventoryTrace.class
 src/main/resources/assets/textures/atlas.decorative.tmp.png
 src/main/resources/assets/textures/atlas.before-*.png
+\n.tools\n.gradle-user-home

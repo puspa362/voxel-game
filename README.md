@@ -112,10 +112,3 @@ release-notes/        Release notes for GitHub releases
 gradle/               Gradle wrapper files
 ```
 
-## CV Link Format
-
-After pushing to GitHub and enabling GitHub Pages from `/docs`:
-
-- Playable build: `https://github.com/USERNAME/REPO/releases`
-- Source code: `https://github.com/USERNAME/REPO`
-- Live preview: `https://USERNAME.github.io/REPO/`

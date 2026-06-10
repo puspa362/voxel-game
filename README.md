@@ -94,12 +94,6 @@ The Gradle build creates:
 - `build/libs/voxel-game.jar` - runnable desktop fat JAR.
 - `build/distributions/voxel-game-1.0.0-source.zip` - source, assets, docs, and Gradle project files.
 
-Suggested GitHub release tag:
-
-```text
-v1.0.0
-```
-
 ## Repository Layout
 
 ```text
